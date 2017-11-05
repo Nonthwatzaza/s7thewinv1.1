@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/tw_notification_panel_header_height" android:overScrollMode="ifContentScrolls">
+        <LinearLayout android:orientation="vertical" android:id="@id/scrollCart" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_marginTop="1.0dip">
+                <FrameLayout android:id="@id/settings_button" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_weight="1.0">
+                    <Button android:layout_gravity="center_horizontal" android:background="@drawable/btn_prof" android:layout_width="wrap_content" android:layout_height="106.66998dip" android:onClick="ProfileButton" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/settings_button" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/camera_panel" android:onClick="camera_tile" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff476476" android:gravity="center" android:layout_gravity="bottom" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" android:text="Camera" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/settings_button" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/block_panel" android:onClick="dormant_toggle" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff476476" android:gravity="center" android:layout_gravity="bottom" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" android:text="Blocking Mode" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="106.66998dip">
+                <FrameLayout android:id="@id/settings_button" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/music_panel" android:onClick="music_tile" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff476476" android:gravity="center" android:layout_gravity="bottom" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" android:text="Music" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/settings_button" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/phone_panel" android:onClick="phone_tile" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff476476" android:gravity="center" android:layout_gravity="bottom" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" android:text="Phone" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/settings_button" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/harsh_bat_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="bat_toggle" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff476476" android:gravity="center" android:layout_gravity="bottom" android:id="@id/harsh_batt" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="106.66998dip">
+                <FrameLayout android:id="@id/settings_button" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/set" android:onClick="app_toggle" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff476476" android:gravity="center" android:layout_gravity="bottom" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" android:text="Services" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/settings_button" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/tethering_panel" android:onClick="tether_toggle" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff476476" android:gravity="center" android:layout_gravity="bottom" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" android:text="Tethering" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/settings_button" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="106.66998dip" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/internet_panel" android:onClick="internet_tile" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff476476" android:gravity="center" android:layout_gravity="bottom" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0px" android:text="Internet" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/quickpanel_dualsim_layout" android:layout_width="fill_parent" android:layout_height="120.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="67.0dip">
+                    <com.android.systemui.statusbar.policy.QuickSim1ButtonLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/QuickSim1ButtonLayout" android:background="#00000000" android:focusable="true" android:clickable="true" android:layout_width="145.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="7.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip">
+                            <ImageView android:id="@id/QuickSim1ButtonImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quick_btn_g_1" />
+                            <TextView android:textSize="16.0dip" android:textColor="#ff33b5e5" android:gravity="left" android:id="@id/QuickSim1ButtonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+                        </LinearLayout>
+                        <TextView android:textSize="14.0dip" android:textColor="#ff33b5e5" android:ellipsize="marquee" android:id="@id/multisim_carrier_label1" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                    </com.android.systemui.statusbar.policy.QuickSim1ButtonLayout>
+                    <com.android.systemui.statusbar.policy.QuickSim2ButtonLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/QuickSim2ButtonLayout" android:background="#00000000" android:focusable="true" android:clickable="true" android:layout_width="145.0dip" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip">
+                            <ImageView android:id="@id/QuickSim2ButtonImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quick_btn_w_2" />
+                            <TextView android:textSize="16.0dip" android:textColor="#ff33b5e5" android:gravity="left" android:id="@id/QuickSim2ButtonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+                        </LinearLayout>
+                        <TextView android:textSize="14.0dip" android:textColor="#ff33b5e5" android:ellipsize="marquee" android:id="@id/multisim_carrier_label2" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                    </com.android.systemui.statusbar.policy.QuickSim2ButtonLayout>
+                </LinearLayout>
+                <View android:background="#00000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/headerbau" android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="200.0dip">
+            <com.lenox.Lenox_Label.lenoxpicture android:id="@id/lenoxpic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_qs_default_user" android:scaleType="centerCrop" />
+            <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="130.0dip">
+                <com.nemesis.ownerinfo.NamePlate android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/profile_name" android:layout_width="wrap_content" android:layout_height="25.0dip" />
+                <com.lenox.Lenox_Label.lenoxlabel android:layout_gravity="center" android:id="@id/lenoxlabel" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <com.b16h22.statusbar.MultiPanelButtons android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:scaleType="center" android:weightSum="3.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:paddingTop="47.0dip" android:layout_width="fill_parent" android:layout_height="200.0dip">
+        <com.nemesis.ownerinfo.Carrier android:layout_gravity="left|center" android:id="@id/pp" android:layout_width="76.0dip" android:layout_height="76.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/ic_qs_default_user" android:scaleType="centerCrop" />
+        <include android:gravity="center_vertical" android:layout_width="76.0dip" android:layout_height="76.0dip" android:layout_marginLeft="155.0dip" android:layout_marginTop="38.0dip" android:layout_marginRight="0.0px" layout="@layout/aaa_3" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="39.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffe5e8ed" android:layout_width="fill_parent" android:layout_height="39.0dip" android:baselineAligned="false"
+      xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+        <com.android.systemui.statusbar.policy.Clock android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Clock" android:textColor="#ff476476" android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="-3.0dip" android:singleLine="true" systemui:ampmSmall="true" />
+        <com.android.systemui.statusbar.policy.DateView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Date" android:textColor="#ff476476" android:ellipsize="none" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="4.0dip" android:maxLines="2" />
+        <com.android.systemui.statusbar.RotationToggle android:id="@id/rotation_lock_button" android:visibility="gone" android:clickable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="8.0dip" android:button="@drawable/ic_notify_rotation" android:contentDescription="@string/accessibility_rotation_lock_off" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/settings_button" android:background="#ffe6e9ee" android:focusable="true" android:visibility="visible" android:layout_width="@dimen/status_bar_expanded_setting_width" android:layout_height="39.0dip" android:layout_toLeftOf="@id/spacebuttonburst">
+        <ImageView android:id="@id/settings_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_quickpanel_icon_settings" android:scaleType="center" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/accessibility_settings_button" />
+    </RelativeLayout>
+    <com.spacecaker.ButtonBurst android:id="@id/spacebuttonburst" android:layout_width="31.0dip" android:layout_height="34.0dip" android:scaleType="center" android:layout_alignParentRight="true" />
+</RelativeLayout>

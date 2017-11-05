@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="70.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/bg_tab" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.bros.aokp.AokpToggleButton android:id="@id/show1" android:layout_width="40.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.bros.aokp.AokpToggles android:id="@id/hide1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Wifi android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_wireless2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Bt android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_bluetooth22" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Thet android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_thet" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Data android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_data_usage2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Vpn android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_vpn" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.More android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_more" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.bros.aokp.AokpToggles>
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/bg_tab" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.bros.aokp.TabToggleButton android:id="@id/show2" android:layout_width="40.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.bros.aokp.TabToggles android:id="@id/hide2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Display android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_display2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Storage android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_storage2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Battry android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_battery2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.App android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_applications2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.bros.aokp.TabToggles>
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/bg_tab" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.bros.aokp.TibToggleButton android:id="@id/show3" android:layout_width="40.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.bros.aokp.TibToggles android:id="@id/hide3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Gps android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_location2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Secu android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_security2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Lang android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_language2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Backup android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_backup2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.bros.aokp.TibToggles>
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/bg_tab" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.bros.aokp.TubToggleButton android:id="@id/show4" android:layout_width="40.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.bros.aokp.TubToggles android:id="@id/hide4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Jam android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_date_time2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.bros.mario.Acce android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_accessibility2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.artstupid.stupid81.Deve android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_development2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="70.0px" android:layout_height="70.0px" android:layout_weight="1.0">
+                        <com.bros.mario.About android:layout_gravity="center_horizontal" android:background="@drawable/ic_settings_about2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.bros.aokp.TubToggles>
+</LinearLayout>
